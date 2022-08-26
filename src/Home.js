@@ -18,12 +18,26 @@ function Home(){
                 rating={3}
                 />
                 
+         <Product/>
          
+         <Product
+            id='49538094'
+            title='Kenwood kMix Stand Mixer for'
+            price={230.96}
+            rating={4}
+            image='https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg'
+            />
         </div>
 
         
         <div className="home_row">
-            <Product/>
+            <Product
+                id='90829332'
+                title='Samsung LC'
+                price={1094.98}
+                rating={4}
+                image='https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg'
+                            />
             <Product/>
             <Product/>
             <Product/>
