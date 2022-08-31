@@ -11,7 +11,8 @@ function Home(){
            
         <div className="home_row">
           
-            <Product 
+            <Product
+                id='098' 
                 title='The lean startup'
                 price={29.99}
                 image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
@@ -21,7 +22,7 @@ function Home(){
          <Product/>
          
          <Product
-            id='49538094'
+            id='890'
             title='Kenwood kMix Stand Mixer for'
             price={230.96}
             rating={4}
@@ -32,7 +33,7 @@ function Home(){
         
         <div className="home_row">
             <Product
-                id='90829332'
+                id='123'
                 title='Samsung LC'
                 price={1094.98}
                 rating={4}
