@@ -10,7 +10,7 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route path="/checkout">
+          <Route path="/Checkout">
             <Header />
             <Checkout />
           </Route>

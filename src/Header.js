@@ -34,10 +34,12 @@ function Header() {
           <span className="header_optionLineTwo">quarta</span>
         </div>
 
-        <div className="header__optionBasket">
-          <ShoppingBasket />
-          <span className="header__optionLineTwo header__basketCount">0</span>
-        </div>
+        <Link to="Checkout">
+          <div className="header__optionBasket">
+            <ShoppingBasket />
+            <span className="header__optionLineTwo header__basketCount">0</span>
+          </div>
+        </Link>
       </div>
     </div>
   );
