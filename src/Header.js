@@ -10,7 +10,8 @@ function Header() {
       <Link to="/">
         <img
           className="header_logo"
-          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png "
+          alt=""
         />
       </Link>
       <div className="header_search">
